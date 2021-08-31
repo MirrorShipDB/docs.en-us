@@ -22,7 +22,7 @@ The architectural design of DorisDB integrates the MPP database and the design i
 
 DorisDB does not rely on any external systems. The simple architecture makes it easy to deploy, maintain and scale out.
 
-### Completely vectorized engine
+### Native vectorized SQL engine
 
 DorisDB adopts vectorization technology to make full use of the parallel computing power of CPU, achieving sub-second query returns in multi-dimensional analyses. Administrators only need to focus on the DorisDB system itself, without having to learn and manage other external systems.
 
